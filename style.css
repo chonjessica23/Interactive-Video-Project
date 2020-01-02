@@ -1,0 +1,71 @@
+body {
+    background: url('images/wallPaper.png');
+    overflow-x: hidden;
+}
+
+.container {
+    width: 98%;
+    margin: 1%;
+}
+
+/* main */
+.main {
+    text-align: center;
+}
+
+#vid {
+    /*width: 100%;*/
+    border: 7px solid deeppink;
+}
+
+/* support */
+#hint {
+    font-family: 'Open Sans', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+}
+
+#choice {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    list-style: none;
+}
+
+#choice li {
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid hotpink;
+    background-color: hotpink;
+    padding: 0.5em 1.5em;
+    margin-right: 2em;
+    border-radius: 5px;
+}
+
+#choice li:hover {
+    /*border: 1px solid #0096f5;*/
+    /*background-color: #0096f5;*/
+    /*cursor: pointer;*/
+    /*transition: 0.5s;*/
+    cursor: pointer;
+}
+
+#choice #tryAgain {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#choice #start {
+    position: relative;
+    font-size: 24px;
+    border: 1px solid hotpink;
+    background-color: hotpink;
+    left: 45%;
+}
+
+#choice #playAgain {
+    display: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MISSION: Win Billy's Heart! <3</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <video id="vid">
+                <source src="video/Montage.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </div>
+    </div>
+
+    <div class="support">
+        <div class="container">
+            <p id="hint"></p>
+            <ul id="choice">
+                <li id="start" onclick="choose(1)">Start</li>
+                <li id="choice1" onclick="choose(1)"></li>
+                <li id="choice2" onclick="choose(2)"></li>
+                <li id="choice3" onclick="choose(3)"></li>
+                <li id="tryAgain" onclick="choose(0)">Try Again</li>
+                <li id="playAgain" onclick="again()">Play Again?</li>
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
